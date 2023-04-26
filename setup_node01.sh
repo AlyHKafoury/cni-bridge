@@ -1,0 +1,1 @@
+sudo ip route add 10.65.3.0/24 via 10.0.0.12 dev eth1

@@ -1,0 +1,27 @@
+[package]
+name = "cni-bridge"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "4.2.4"
+envmnt = "0.10.4"
+futures = "0.3.28"
+hex = "0.4.3"
+interfaces = "0.0.8"
+ipnetwork = "0.20.0"
+iptables = "0.5.0"
+log = "0.4.17"
+netlink-packet-core = "0.5.0"
+netns-rs = "0.1.0"
+nix = "0.26.2"
+rand = "0.8.5"
+rtnetlink = "0.12.0"
+scopeguard = "1.1.0"
+serde = {version = "1.0.160", features = ["derive"]}
+serde_json = "1.0.96"
+sha2 = "0.10.6"
+simple-logging = "2.0.2"
+tokio = { version = "1.27.0", features = ["full"] }
