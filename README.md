@@ -8,6 +8,7 @@ This is an experimental Kubernetes CNI plugin written in Rust. It provides a bri
     * `ADD`
     * `DEL`
     * `CHECK`
+    * `VERSION`
 * Uses the host-local IPAM plugin for IP address allocation.
 * Supports the following options:
     * `name` - The name of the network.
